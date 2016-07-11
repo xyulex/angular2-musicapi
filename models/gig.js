@@ -6,7 +6,6 @@ var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 
 var gigSchema=new Schema({
-   id: Number,
   date: Date,
   bands: String,
   venue: String,
